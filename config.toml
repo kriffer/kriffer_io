@@ -1,0 +1,74 @@
+baseurl = "https://kriffer.io"
+DefaultContentLanguage = "en"
+title = "~$ kriffer.io_"
+theme = "beautifulhugo"
+#pygmentsStyle = "github-dark"
+pygmentsUseClasses = true
+pygmentsCodeFences = true
+#pygmentsCodefencesGuessSyntax = true
+#pygmentsUseClassic = true
+#pygmentOptions = "linenos=inline"
+disqusShortname = "kriffer-io"
+googleAnalytics = "G-27BKDN8BPP"
+
+[Params]
+  homeTitle = " " # Set a different text for the header on the home page
+  subtitle = "Software and system engineering stuff"
+  mainSections = ["post","posts"]
+  logo = "img/anton.jpeg" # Expecting square dimensions
+  favicon = "img/favicon.ico"
+  dateFormat = "January 2, 2006"
+  commit = false
+  rss = true
+  comments = true
+  readingTime = true
+  wordCount = false
+  #useHLJS = false
+  socialShare = true
+  delayDisqus = true
+  showRelatedPosts = true
+  hideAuthor = true
+ #gcse = "" # Get your code from google.com/cse. Make sure to go to "Look and Feel" and change Layout to "Full Width" and Theme to "Classic"
+# disclaimerText = "The opinions expressed herein are my own personal opinions and do not represent my employer’s view in any way."
+
+#[[Params.bigimg]]
+#  src = "img/triangle.jpg"
+#  desc = "Triangle"
+#[[Params.bigimg]]
+#  src = "img/sphere.jpg"
+#  desc = "Sphere"
+#  # position: see values of CSS background-position.
+#  position = "center top"
+#[[Params.bigimg]]
+#  src = "img/hexagon.jpg"
+#  desc = "Hexagon"
+
+[Author]
+  # Set only your "username" for default hosts and full URLs otherwise (e.g., "https://MyGitLab.org/username")
+  name = "Anton Kravets"
+  website = "kriffer.io"
+  email = "antonio.kravets@gmail.com"
+  github = "https://github.com/kriffer"
+  gitlab = "https://gitlab.com/kriffer"
+  linkedin = "https://www.linkedin.com/in/anton-kravets-b54584267/"
+  
+
+[[menu.main]]
+    name = "Blog"
+    url = ""
+    weight = 1
+
+[[menu.main]]
+    name = "Projects"
+    url = "page/projects/"
+    weight = 2
+
+[[menu.main]]
+    name = "About me"
+    url = "page/about/"
+    weight = 3
+ 
+[[menu.main]]
+    name = "Tags"
+    url = "tags"
+    weight = 3
